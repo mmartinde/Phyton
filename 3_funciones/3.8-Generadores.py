@@ -1,4 +1,5 @@
-##https://www.youtube.com/watch?v=536fB1qvSeE&t=12s
+#https://www.youtube.com/watch?v=536fB1qvSeE&t=12s
+
  #GENERADORES
 # #Un generador es una función que utiliza la palabra clave yield para devolver un valor y pausar su ejecución, permitiendo que se reanude más tarde.
 # #Los generadores son una forma de crear iteradores de manera más sencilla y eficiente en comparación con las funciones tradicionales.
