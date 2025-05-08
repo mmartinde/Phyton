@@ -11,8 +11,10 @@ def return_valores():
    print("Hola, soy un generador")
    return True
 
-def generador():
-    pass
+def generador(*args):
+    for valor in args:
+        yield valor *10, True #Un ejemplo de generador que multiplica cada valor por 10 y devuelve True
 
+for valor_uno, valor_dos in generador(1,2,3,4,5):
+    print(valor_uno, valor_dos) 
 
-print(return_valores()) #Imprime "Hola, soy un generador" y luego True. El generador no se ejecuta hasta que se llama a la función
