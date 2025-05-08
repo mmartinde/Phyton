@@ -1,4 +1,4 @@
-#https://www.youtube.com/watch?v=munC0VXPWk
+#https://www.youtube.com/watch?v=munC0mVXPWk
 
 #Variables Generales
 #Las variables generales son variables que se pueden utilizar en diferentes partes de un programa.
