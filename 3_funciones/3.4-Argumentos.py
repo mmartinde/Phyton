@@ -1,4 +1,5 @@
 #https://www.youtube.com/watch?v=PeWKpuFpGZA&t=10s
+
 #Argumentos
 #Los argumentos son valores que se pasan a una función cuando se llama.
 #Los argumentos se definen en la declaración de la función y se utilizan dentro de la función.
