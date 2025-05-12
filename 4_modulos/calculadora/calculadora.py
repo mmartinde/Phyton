@@ -30,7 +30,7 @@ FUNCTIONS
         
     raiz(num1)
         Regresa la raiz cuadrada de un numero entero.
-        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.impo
         
     factorial(num1)
         Regresa el factorial de un numero entero.
@@ -143,3 +143,14 @@ def factorial (num1):
         for i in range(2, num1 + 1):
             resultado *= i
         return resultado
+    
+if __name__ == "__main__":
+    print ("Este es el script principal")
+    
+    
+#Esto significa que si ejecutas este script directamente, el valor de __name__ será "__main__".
+#Si importas este script desde otro módulo, el valor de __name__ será el nombre del módulo. Y por lo tanto, no se ejecutará el bloque de código dentro del if.
+#Ejemplo de uso:
+#Si guardas el código anterior en un archivo llamado script_principal.py y lo ejecutas directamente, verás que imprime "Este es el script principal".
+#Pero si importas este script desde otro archivo, como por ejemplo otro_script.py, no verás ese mensaje.
+#Esto es útil para evitar que ciertas partes del código se ejecuten cuando el módulo es importado, pero sí se ejecuten cuando el módulo es ejecutado directamente.
