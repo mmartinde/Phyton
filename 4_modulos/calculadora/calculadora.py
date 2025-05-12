@@ -1,3 +1,51 @@
+#!/usr/bin/python3
+
+"""
+NAME
+Calculadora
+
+DESCRIPTION
+    Esta es una calculadora que permite realizar operaciones matematicas basicas como suma, resta, multiplicacion y division.
+    
+FUNCTIONS
+    division(num1, num2)
+        Regresa la division de dos numeros enteros.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+    
+    multiplicacion(num1, num2)
+        Regresa la multiplicacion de dos numeros enteros.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+        
+    suma(num1, num2)
+        Regresa la suma de dos numeros enteros.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+        
+    resta(num1, num2)
+        Regresa la resta de dos numeros enteros.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+        
+    potencia(num1, num2)
+        Regresa la potencia de dos numeros enteros.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+        
+    raiz(num1)
+        Regresa la raiz cuadrada de un numero entero.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+        
+    factorial(num1)
+        Regresa el factorial de un numero entero.
+        Esta funcion verifica si el divisor es cero y devuelve un mensaje de error en caso de que lo sea.
+"""
+___author__ = "Manu Martin"
+___copyright__ = "Copyright 2025 Manu Martin"
+___credits__ = ["Código facilito"]
+
+___license__ = "GPL"
+___version__ = "1.0.0"
+___maintainer__ = "Manu Martin"
+___email__ = "manu1574@hotmail.com"
+___status__ = "Development"
+
 def sumar (num1, num2):
     """Suma de dos numeros enteros
     Esta funcion recibe dos numeros enteros y devuelve la suma de ellos.
