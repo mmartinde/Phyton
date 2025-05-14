@@ -36,4 +36,4 @@ lapiz_generico = Lapiz() #Este es un objeto de la clase Lapiz
 lapiz_generico.escribir() #Llamamos al metodo escribir
 lapiz_generico.borrar() #Llamamos al metodo borrar
 lapiz_generico.contiene_borra = True #Cambiamos el atributo contiene_borra
-lapiz_generico.borrar() #Llamamos al metodo borrar
+lapiz_generico.borrar() #Llamamos al metodo borrar∫
