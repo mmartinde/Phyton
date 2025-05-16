@@ -3,9 +3,9 @@
 #Variables de clase
 #Las variables de clase son aquellas que se definen dentro de la clase y son compartidas por todas las instancias de la clase
 #Se definen fuera del constructor __init__
-#En este caso la variable de clase contador es compartida por todas las instancias de la clase Usuario
-#Cada vez que se crea una nueva instancia de la clase Usuario se incrementa el contador
-#El contador se puede acceder desde fuera de la clase con el nombre de la clase
+#En este caso la variable de clase Circulo es compartida por todas las instancias de la clase Usuario
+#Cada vez que se crea una nueva instancia de la clase Usuario se incrementa el Circulo
+#El Circulo se puede acceder desde fuera de la clase con el nombre de la clase
 
 class Circulo:
     
