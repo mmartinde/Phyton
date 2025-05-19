@@ -79,5 +79,6 @@ class Gato (Felino, Mascota):
         
 gato  = Gato()
 gato.nombre = "Michi"
-gato.mostrar_nombre()
-print (f"Mostramos la propiedad de la clase Animal del gato es 'terrestre' valor: {gato.terrestre}")
+gato.mostrar_nombre() #Llamada al método mostrar_nombre de la clase Mascota
+gato.jugar() #Llamada al método jugar de la clase Mascota
+print (f"Mostramos la propiedad de la clase Animal del gato es 'terrestre' valor: {gato.terrestre}") #Llamada a la propiedad terrestre de la clase Animal
