@@ -1,5 +1,5 @@
-from .gato import Gato
-from .leon import Leon
+from .felinos import Gato
+from .felinos import Leon
 
 def creador_gatos(nombre):
     return Gato(nombre)
